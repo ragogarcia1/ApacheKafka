@@ -541,6 +541,6 @@ curl -X DELETE http://localhost:8081/subjects/<subject>
 - 🔄 El cluster puede tomar tiempo en elegir leaders y sincronizar réplicas
 - 💾 Los datos persisten entre reinicios **a menos que** uses `docker-compose down -v`
 - 🖥️ Los comandos difieren ligeramente entre Linux/Mac y Windows (principalmente en continuación de líneas)
-- 🐳 Dentro del contenedor vs fuera del contenedor requiere diferentes bootstrap servers
+
 
 ---
